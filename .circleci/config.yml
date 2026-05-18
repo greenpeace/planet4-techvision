@@ -29,6 +29,7 @@ job_environments:
     APP_HOSTPATH: techvision
     CONTAINER_PREFIX: planet4-techvision
     WP_DB_NAME_PREFIX: planet4-techvisi_wordpress
+    OAUTH_GROUP: gp
   develop_environment: &develop_environment
     APP_ENVIRONMENT: development
     APP_HOSTNAME: www-dev.greenpeace.org
